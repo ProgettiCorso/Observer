@@ -1,13 +1,13 @@
 package fziviello.observer;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class MainActivity extends AppCompatActivity implements Observer {
+public class MainActivity extends Activity implements Observer {
 
     private TextView Txt_random;
     private MyObservable myObservable;
